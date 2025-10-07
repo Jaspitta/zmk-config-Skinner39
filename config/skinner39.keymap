@@ -33,10 +33,10 @@
 
         mouse_media {
             bindings = <
-  &trans  &mkp LCLK       &kp UP_ARROW  &mkp RCLK        &msc SCRL_UP                            &kp PAGE_UP    &mkp MB5        &trans  &trans  &trans
-  &trans  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW  &msc SCRL_DOWN                          &kp PAGE_DOWN  &mkp MB4        &trans  &trans  &trans
-  &trans  &trans          &mkp MCLK     &msc SCRL_LEFT   &msc SCRL_RIGHT                         &desktop_left  &desktop_right  &trans  &trans  &trans
-  &trans  &trans          &trans        &kp LEFT_GUI     &kp TAB          &trans  &kp BACKSPACE  &kp SPACE                                      &trans
+  &trans  &mkp LCLK  &kp UP_ARROW    &mkp RCLK        &msc SCRL_UP                            &kp PAGE_UP    &mkp MB5        &trans  &trans  &trans
+  &trans  &kp LEFT   &kp DOWN_ARROW  &kp RIGHT_ARROW  &msc SCRL_DOWN                          &kp PAGE_DOWN  &mkp MB4        &trans  &trans  &trans
+  &trans  &trans     &mkp MCLK       &msc SCRL_LEFT   &msc SCRL_RIGHT                         &desktop_left  &desktop_right  &trans  &trans  &trans
+  &trans  &trans     &trans          &kp LEFT_GUI     &kp TAB          &trans  &kp BACKSPACE  &kp SPACE                                      &trans
             >;
         };
 
