@@ -23,7 +23,7 @@
     keymap {
         compatible = "zmk,keymap";
 
-        default_layer {
+        base_layer {
             bindings = <
   &kp Q   &lt 4 W           &lt 3 E             &kp R           &kp T                             &kp Y      &kp U            &kp I                &lt 2 O            &kp P
   &kp A   &mt LEFT_SHIFT S  &mt LEFT_CONTROL D  &mt LEFT_ALT F  &kp G                             &kp H      &mt RIGHT_ALT J  &mt RIGHT_CONTROL K  &mt RIGHT_SHIFT L  &kp SEMI
